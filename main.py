@@ -27,7 +27,7 @@ def main():
     current_date = datetime.today().strftime("%Y-%m-%d")
 
     file_name = current_date + "_playlist" + ".json"
-    file_path = "_playlists/" + file_name
+    file_path = "_data/playlists/" + file_name
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 

@@ -1,0 +1,9 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Landfill" # the name of your site, e.g. ACME Corp.
+
+exclude:
+  - "*.py"
+  - "*.txt"
+  - "*.code-workspace"
+  - "README.md"
