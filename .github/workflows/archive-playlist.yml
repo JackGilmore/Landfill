@@ -29,4 +29,6 @@ jobs:
       run: python main.py
     - name: Git status
       run: git status
+    - name: Git commit
+      run: git add -A && git commit -m "Playlist archive" && git push origin main
       
