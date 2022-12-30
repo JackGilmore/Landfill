@@ -31,9 +31,9 @@ def main():
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-    with open(file_path, "w") as f:
-        f.write(json.dumps(results["tracks"]["items"]))
-        f.close()
+    with open(file_path, "w") as file:        
+        json.dump(results["tracks"]["items"], file, sort_keys=True, indent=4, separators=(',', ': '))
+        file.close()
 
     print("Playlist archive complete!")
 
