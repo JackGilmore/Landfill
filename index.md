@@ -5,7 +5,7 @@ title: "Home"
 
 <p>An archive of the Trash Compactor/Fantastic Beats playlist</p>
 
-{% for playlist in site.data.playlists %}
+{% for playlist in site.data.playlists | sort %}
 {% assign playlist_date = playlist[0] | split: "_" | first %}
 
 <h2 >{{playlist_date}}</h2>
