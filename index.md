@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-<p>An archive of the Trash Compactor/Fantastic Beats playlist</p>
+<p>An archive of the Trash Compactor/Fantastic Beats playlist test</p>
 
 {% assign playlists = site.data.playlists | sort %}
 {% for playlist in playlists %}
